@@ -1,0 +1,116 @@
+body {
+    margin-bottom: 0;
+    background-color: #99e213db;
+    padding-bottom: 0;
+    border: 0;
+}
+
+.App {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10px;
+    background-color: #df0cc6db;
+    font-family: Lato, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-reactIcon {
+    width: 100%;
+    height: 40px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-logo {
+    height: 40px;
+}
+
+.container-calc {
+    width: 400px;
+    height: 590px;
+    padding: 14px;
+    background-color: #eff7f2;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.buttons-row {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-button {
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.container-button:hover {
+    background-color: #5a01a7;
+}
+
+.operator {
+    background-color: #00471b;
+}
+
+.operator:hover {
+    background-color: #ff6600;
+}
+
+.input {
+    height: 75px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #0a0a23;
+    color: white;
+    padding: 11px;
+    padding-right: 30px;
+    margin: 1px solid #888;
+    box-shadow: -1px 4px 1px 1px white;
+}
+
+
+
+.clear-button {
+    height: 10px;
+    font-size: 1.6em;
+    display: flex;
+    flex: 1;
+    background-color: #19ac02;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+
+
+
+
